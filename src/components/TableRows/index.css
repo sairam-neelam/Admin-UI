@@ -1,0 +1,98 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  table {
+    width: 90%;
+  }
+}
+
+th,
+td {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 8px;
+}
+
+th {
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  th {
+    font-size: 25px;
+  }
+}
+
+td {
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  td {
+    font-size: 15px;
+  }
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.icon-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.action-green-icon {
+  color: #4eeb3f;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .action-green-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
+}
+
+.action-red-icon {
+  color: #f22259;
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .action-red-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.input-edit {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #8e998d;
+  text-align: center;
+}
+
+.selected-row {
+  background-color: grey;
+}

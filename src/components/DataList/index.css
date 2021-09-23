@@ -1,0 +1,35 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.search-input {
+  border: 1px solid #dbdbdb;
+  outline: none;
+  font-family: Roboto;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main-heading {
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.delete-button {
+  border: none;
+  color: #ffffff;
+  background-color: #f22259;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.page-btn {
+  border-radius: 60px;
+  border: 1px solid #1bc9f5;
+  width: 25px;
+  height: 25px;
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 5px;
+  background: #1bc9f5;
+}
+
+@media screen and (min-width: 768px) {
+  .page-btn {
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+.active {
+  background: transparent;
+}
+
+.arrow-btn {
+  border-radius: 60px;
+  border: 1px solid #080808;
+  width: 25px;
+  height: 25px;
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 5px;
+  background: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-btn {
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
